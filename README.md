@@ -13,14 +13,6 @@ Follow the instructions in the classroom lesson to install and configure the AIN
 
 ## Quickstart Guide
 
-### Activate the aind environment (OS X or Unix/Linux)
-    
-    `$ source activate aind`
-
-### Activate the aind environment (Windows)
-
-    `> activate aind`
-
 ### Run the code & visualization
 
     `(aind)$ python solution.py`
@@ -44,33 +36,6 @@ YOU SHOULD EXPECT TO MODIFY OR WRITE YOUR OWN UNIT TESTS AS PART OF COMPLETING T
 
     `$ python -m unittest -v`
 
-1. Run the following command from inside the project folder in your terminal to verify that the Udacity-PA tool is installed properly. You should see a list of failed test cases -- which is good because you haven't implemented any code yet. You will reuse this command later to execute the **remote** test cases and complete the project.
-
-    `$ udacity submit`
-
-1. Add the two new diagonal units to the `unitlist` at the top of solution.py. Re-run the local tests with `python -m unittest` to confirm your solution. 
-
-1. Copy your code from the classroom for the `eliminate()`, `only_choice()`, `reduce_puzzle()`, and `search()` into the corresponding functions in the `solution.py` file.
-
-1. Implement the `naked_twins()` function, and update `reduce_puzzle()` to call it (along with the other existing strategies). Re-run the local tests with `python -m unittest -v` to confirm your solution.
-
-1. Write your own test cases to further test your code. Re-run the remote tests with `udacity submit` to confirm your solution. If any of the remote test cases fail, use the feedback to write new local test cases that you can use for debugging.
-
-
-## Submission
-
-To submit your code, run `udacity submit` from a terminal in the top-level directory of this project. You will be prompted for a username and password the first time the script is run. If you login using google or facebook, visit [this link](https://project-assistant.udacity.com/auth_tokens/jwt_login) for alternate login instructions.
-
-The Udacity-PA CLI tool is automatically installed with the AIND conda environment provided in the classroom, but you can also install it manually by running `pip install udacity-pa`. You can submit your code for scoring by running `udacity submit`. The project assistant server has a collection of unit tests that it will execute on your code, and it will provide feedback on any successes or failures. You must pass all test cases in the project assistant to pass the project.
-
-When your project passes all test cases on the Project Assistant, you will automatically receive credit for the project in the classroom. (Unlike other projects, this one does not require any manual submission in the classroom to complete.)
-
-
-## Troubleshooting
-
-Your classroom mentor may be able to provide some guidance on the project, but the [discussion forums](https://discussions.udacity.com/c/nd889-intro-sudoku) or [slack team](https://ai-nd.slack.com) (especially the #p-sudoku channel) should be your primary support resources. The instructors hold regularly scheduled office hours in the Slack community. (The schedule is posted in the description of the #office-hours channel.)
-
-Contact ai-support@udacity.com if you don't have access to the forums or Slack team.
 
 
 ## Visualization
